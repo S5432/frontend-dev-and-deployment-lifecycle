@@ -44,3 +44,9 @@ after that we go inot the adminitration to disable the automatic analysis of the
 2. for that we go inot the proejct inforation collect proejct key and organization key and also create the token by click on the user account and set up this token into the github repo secret and variable with n ame SONAR_TOKEN
 
 3. then go into the vs-code and do the furthur steps
+
+
+##  Now we are start working with github branches so we follow some steps
+1. git pull origin main
+2. git checkout -b feature/github-push   # this create new branch in the github repo
+3. git add .
