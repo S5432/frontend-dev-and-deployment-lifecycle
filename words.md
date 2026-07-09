@@ -34,3 +34,13 @@ run this command on root level:
 
 # use jest testing config as package in the customer -portal app
 > pnpm add @repo/jest-config@workspace:* --filter customer-portal
+
+
+# after jest testing we setup the sonarqube cloud 
+where we create account by github abd then select repositiory and the  we see the summary of the repo code and it generate the report .
+after that we go inot the adminitration to disable the automatic analysis of the repo code
+1. we do setup like when we puch code to github repo so that time only he test and analyze the repo code and generate the report.
+
+2. for that we go inot the proejct inforation collect proejct key and organization key and also create the token by click on the user account and set up this token into the github repo secret and variable with n ame SONAR_TOKEN
+
+3. then go into the vs-code and do the furthur steps
