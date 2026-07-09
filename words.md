@@ -50,3 +50,5 @@ after that we go inot the adminitration to disable the automatic analysis of the
 1. git pull origin main
 2. git checkout -b feature/github-push   # this create new branch in the github repo
 3. git add .
+4. git commit -m "feat: new feature added"
+5. git push origin feature/github-push
